@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../netflix-background.jpg);
+    background-size: cover;
+
+}
+.wrapper{
+    width: 390px;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color:#fff;
+    padding: 30px 40px;
+    
+}
+.wrapper h1{
+    font-size: 33px;
+    text-align: center;
+    
+    
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    
+    
+
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    background:transparent ;
+    background-color: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.wrapper .checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.checkbox a{
+    color: #fff;
+    text-decoration: none;
+    
+
+}  
+.checkbox a:hover{
+    text-decoration: underline;
+} 
+.wrapper .btn{
+    height:50px ;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow:solod black ;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(229, 9, 20);
+    margin-top: 40px;
+}
+.wrapper .signup{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.signup a{
+    color:#fff;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+
+    
+
+    
+
